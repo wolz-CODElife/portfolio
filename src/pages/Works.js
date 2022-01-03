@@ -7,13 +7,13 @@ const Works = () => {
     
     return (
         <div className='Works'>
-            <h1 className='title'>My Works <IconProjects /> </h1>
+            <h1 className='title'>Works <IconProjects /> </h1>
             <div className="gallery">
                 {works.map(work => (
                     <div className="card" style={{ backgroundImage: `url(${work.thumbnail})` }} key={work.title}>
                         {work.video &&
                         // <img src={work.video} alt={work.title} id="background-video" />
-                            <video autoPlay="true" loop="2" muted poster={work.thumbnail} id="background-video">
+                            <video autoPlay={true} loop="2" muted poster={work.thumbnail} id="background-video">
                                 <source src={work.video} type="video/mp4" />
                             </video>
                         }

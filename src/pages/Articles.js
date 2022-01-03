@@ -7,7 +7,7 @@ const Articles = () => {
     
     return (
         <div className='Articles'>
-            <h1 className='title'>My Articles <IconArticles /> </h1>
+            <h1 className='title'>Articles <IconArticles /> </h1>
             <div className="gallery">
                 {articles.map(article => (
                     <div className="card" style={{ backgroundImage: `url(${article.thumbnail})` }} key={article.title}>

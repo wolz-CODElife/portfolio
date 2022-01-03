@@ -31,6 +31,12 @@
     object-fit: contain;
     filter: invert(1);
     cursor: var(--eye-link);
+    transition: transform 0.4s ease;
+    opacity: 0.4;
+}
+.Contacts a img:hover {
+    transform: scale(1.1);
+    opacity: 1.1;
 }
 
 @media screen and (max-width: 1050px) {

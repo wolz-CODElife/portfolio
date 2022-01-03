@@ -7,7 +7,7 @@ const Tools = () => {
     
     return (
         <div className='Tools'>
-            <h1 className='title'>My Skills <IconTools /> </h1>
+            <h1 className='title'>Skills <IconTools /> </h1>
             <div className="gallery">
                 {tools.map(tool => (
                     <div className="card" key={tool.title}>
