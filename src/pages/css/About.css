@@ -1,0 +1,29 @@
+.About {
+    font-size: 20px;
+}
+.About .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.About .title img {
+    width: 50px;
+    object-fit: contain;
+}
+
+.About code a.highlighted {
+    text-decoration: none;
+    cursor: var(--eye-link);
+    font-size: 20px;
+    color: #ffffff;
+    transition: 0.4s transform ease-in;
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    filter: opacity(0.6);
+    background: rgba(255, 255, 255, 0.2);
+}
+.About code a.highlighted:hover {
+    background: #258552;
+    color: #ffffff;
+}

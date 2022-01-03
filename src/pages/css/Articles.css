@@ -1,0 +1,107 @@
+/* Variables */
+
+:root {
+    --eye-link: url('https://api.iconify.design/noto:eyes.svg'), pointer !important;
+    --think: url('https://api.iconify.design/noto:thinking-face.svg'), pointer !important;
+
+}
+
+.Articles {
+    font-size: 20px;
+}
+.Articles .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Articles .title img {
+    width: 50px;
+    object-fit: contain;
+}
+
+.Articles .gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+.Articles .gallery .card {
+    position: relative;
+    min-height: 350px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #cccccc44;
+}
+.Articles .gallery > .card > .info {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    height: 0px;
+    overflow: auto;
+    border-radius: 10px;
+    background-image: linear-gradient(transparent 40%, #0e0d0dce 50%);
+    transition: 0.4s ease;
+    position: relative;
+}
+.Articles .gallery .card:hover .info {
+    padding: 20px 10px;
+    height: 90%;
+    overflow: unset;
+}
+.Articles .gallery > .card > .info > .header_links {
+    position: absolute;
+    top: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+}
+.Articles .gallery > .card > .info > .header_links > a {
+    text-decoration: none;
+    background: #ffffff;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    padding: 10px 0px;
+}
+.Articles .gallery > .card > .info > h1 {
+    font-size: 20px;
+    line-height: 24px;
+}
+.Articles .gallery > .card > .info > p {
+    font-size: 15px;
+    line-height: 18px;
+    margin-bottom: 10px;
+}
+.Articles .gallery > .card > .info > .techs span {
+    font-size: 15px;
+    border: none;
+    border-radius: 20px;
+    margin-right: 10px;
+    padding: 8px;
+    background: #258552;
+}
+
+
+
+@media screen and (max-width: 1250px) {
+    .Articles .gallery .card {
+        position: relative;
+        min-height: 330px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .Articles .gallery {
+        grid-template-columns: 1fr;
+        grid-gap: 20px 0px;
+    }
+    .Articles .gallery .card {
+        position: relative;
+        min-height: 360px;
+    }
+}
+

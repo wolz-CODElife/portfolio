@@ -1,13 +1,31 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  cursor: url('https://api.iconify.design/noto:rocket.svg') 50 50, auto;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: Consolas;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0px;
+  color: #FFFFFF;
+  background-image: url('https://i.postimg.cc/W46TzF0T/image.png'); 
+  background-size: 100px;
+  background-repeat: repeat;
+}
+::-webkit-scrollbar {
+  width: 8px;
+  background: #258552;
+}
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #ffffff;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  width: 12px;
 }

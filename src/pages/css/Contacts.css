@@ -1,0 +1,48 @@
+/* Variables */
+
+:root {
+    --eye-link: url('https://api.iconify.design/noto:eyes.svg'), pointer !important;
+    --think: url('https://api.iconify.design/noto:thinking-face.svg'), pointer !important;
+
+}
+
+.Contacts {
+    font-size: 20px;
+}
+.Contacts .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Contacts .title img {
+    width: 50px;
+    object-fit: contain;
+}
+.Contacts .gallery {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 20px;
+}
+.Contacts a{
+    cursor: var(--eye-link);
+}
+.Contacts a img {
+    width: 100px;
+    object-fit: contain;
+    filter: invert(1);
+    cursor: var(--eye-link);
+}
+
+@media screen and (max-width: 1050px) {
+    .Contacts a img {
+        width: 50px;
+    }
+}
+
+
+@media screen and (max-width: 450px) {
+    .Contacts a img {
+        width: 30px;
+    }
+}
+

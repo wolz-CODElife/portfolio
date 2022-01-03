@@ -1,0 +1,69 @@
+/* Variables */
+
+:root {
+    --eye-link: url('https://api.iconify.design/noto:eyes.svg'), pointer !important;
+    --think: url('https://api.iconify.design/noto:thinking-face.svg'), pointer !important;
+
+}
+
+.Tools {
+    font-size: 20px;
+}
+.Tools .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Tools .title img {
+    width: 50px;
+    object-fit: contain;
+}
+.Tools .gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+.Tools .gallery .card {
+    height: 200px;
+    background: #ccc;
+    border-radius: 8px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.Tools .gallery .card img{
+    height: 100px;
+    max-width: 150px;
+    object-fit: contain;
+}
+.Tools .gallery .card h3 {
+    font-size: 15px;
+    margin: 0px;
+    color: #1d1c1c;
+}
+.Tools .gallery .card p {
+    font-size: 15px;
+    margin: 0px;
+    color: #000000;
+}
+
+@media screen and (max-width: 1200px) {   
+    .Tools .gallery {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+    }
+}
+@media screen and (max-width: 500px) {   
+    .Tools .gallery {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+}
+
+
+
