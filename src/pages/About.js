@@ -6,6 +6,10 @@ const About = () => {
     return (
         <div className='About'>
             <h1 className='title'>About Me <IconAbout /> </h1>
+            <div className='img_logo'>
+                <img src="https://i.postimg.cc/kGBXT6Zt/Picture7.jpg" alt="wolz CODElife" />
+            </div>
+            <br />
             <code>
                 <q>
                     I am a web developer with {`${new Date().getFullYear() - 2014}`}+ years of experience in full-stack web technologies like <a href="http://github.com/wolz-CODElife" target="_blank" rel="noopener noreferrer" title="GitHub" className='highlighted'>JavaScript(React), Python(Flask), HTML, CSS, Git, Firebase</a>. Recently, I have been working remotely as a contractor for various <a href="https://www.linkedin.com/in/wolz-codelife/" target="_blank" rel="noopener noreferrer" title="LinkedIn" className='highlighted'>companies</a> worldwide. And I specialize in building single-page applications (SPAs) and enjoy transforming beautiful designs into smoothly-working products used by many people. And also, writing technical content for blog platforms.
