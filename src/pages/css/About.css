@@ -1,5 +1,6 @@
 .About {
     font-size: 20px;
+    line-height: 35px;
 }
 .About .title {
     display: flex;
@@ -25,10 +26,10 @@
 .About code a.highlighted {
     text-decoration: none;
     cursor: var(--eye-link);
-    font-size: 20px;
+    font-size: 18px;
     color: #ffffff;
     transition: 0.4s transform ease-in;
-    padding: 8px;
+    padding: 4px 8px;
     border: none;
     border-radius: 8px;
     filter: opacity(0.6);
@@ -37,4 +38,15 @@
 .About code a.highlighted:hover {
     background: #258552;
     color: #ffffff;
+}
+
+@media screen and (max-width: 600px) {
+    .About{
+        font-size: 15px;
+        line-height: 30px;
+    }
+    .About code a.highlighted {
+        padding: 2px 8px;
+        font-size: 15px;
+    }
 }
