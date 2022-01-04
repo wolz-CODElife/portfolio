@@ -32,7 +32,7 @@ export const tools = [
     {
         title: "Firebase",
         years: 2020,
-        thumbnail: "https://api.iconify.design/logos:mongodb.svg"
+        thumbnail: "https://api.iconify.design/logos:firebase.svg"
     },
     {
         title: "HTML",
