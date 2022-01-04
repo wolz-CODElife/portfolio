@@ -81,6 +81,7 @@
 }
 .Works .gallery > .card > .info > h1 {
     font-size: 20px;
+    line-height: 24px;
 }
 .Works .gallery > .card > .info > p {
     font-size: 15px;
@@ -111,6 +112,13 @@
     .Works .gallery .card {
         position: relative;
         min-height: 350px;
+    }
+    .Works .gallery > .card > .info > .techs span {
+        font-size: 11px !important;
+        margin-right: 7px;
+    }
+    #background-video {
+        display: none;
     }
 }
 

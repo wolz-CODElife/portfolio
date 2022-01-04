@@ -103,5 +103,9 @@
         position: relative;
         min-height: 360px;
     }
+    .Articles .gallery > .card > .info > .techs span {
+        font-size: 11px !important;
+        margin-right: 7px;
+    }
 }
 
