@@ -4,10 +4,15 @@ import { IconExternalLink, IconGithub, IconProjects } from '../icons/icons'
 import './css/Works.css'
 
 const Works = () => {
-    
+    const Resume = "https://firebasestorage.googleapis.com/v0/b/wolz-portfolio.appspot.com/o/Adewole%20Joel%20Resume.pdf?alt=media&token=8a5f1e1c-4f17-47f0-8336-5139c9c49f16"
+
     return (
         <div className='Works'>
             <h1 className='title'>Works <IconProjects /> </h1>
+            <div className="pdf">
+                <iframe src={Resume} title='Resume' frameborder="0"></iframe>
+                <a href={Resume} download target="_blank" rel='noopener noreferrer'>Download Resume</a>
+            </div>
             <div className="gallery">
                 {works.map(work => (
                     <div className="card" style={{ backgroundImage: `url(${work.thumbnail})` }} key={work.title}>
