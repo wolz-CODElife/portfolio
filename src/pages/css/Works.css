@@ -35,7 +35,7 @@
     box-shadow: 0px 0px 10px #cccccc44;
 }
 
-#background-video{
+video{
     object-fit: cover;
     position: absolute;
     border-radius: 10px;
@@ -117,8 +117,9 @@
         font-size: 11px !important;
         margin-right: 7px;
     }
-    #background-video {
+    video {
         display: none;
+        visibility: hidden;
     }
 }
 
