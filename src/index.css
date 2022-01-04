@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
 * {
   cursor: url('https://api.iconify.design/noto:rocket.svg') 50 50, auto;
+  font-family: 'Space Mono', monospace;
 }
 body {
-  font-family: Consolas;
+  font-family: 'Space Mono', monospace;
   font-size: 36px;
   font-style: normal;
   font-weight: 400;
