@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://i.postimg.cc/kGBXT6Zt/Picture7.jpg" style="border-radius: 50%; width: 200px, max-width: 70%;"/>
+<img src="https://i.postimg.cc/kGBXT6Zt/Picture7.jpg" style="border-radius: 50%; width: 100px, max-width: 70%;"/>
     
 <h1 align="center"><a href="https://codewonders.dev">Joel Adewole</a></h1>
 <p align="center">ReactJS & Python Web Developer - Technical Writer</p>
