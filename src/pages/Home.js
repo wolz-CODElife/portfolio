@@ -6,6 +6,10 @@ import { IconArrowRight, IconLocation } from '../icons/icons'
 const Home = () => {
     const page = useLocation()
 
+    console.log("\t\t\tCONTACT ME\n----------------------------------\n\n\n\
+    Hey There i'm glad you liked the site and what to see whats going on, sure check the repo at https://github.com/wolz-CODElife/portfolio \n\n\
+    And dont forget to shoot me an email at joeladewole3@gmail.com if you need me to come do awesome work at your company");
+
     const navList = [
         {
             title: "About",

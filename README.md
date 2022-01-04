@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+<p align="center">
+    <h1 align="center"><a href="https://codewonders.dev">Joel Adewole</a></h1>
+<p align="center">ReactJS & Python Web Developer - Technical Writer</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+</p>
 
-## Available Scripts
+<img src="https://i.postimg.cc/yYyq5X44/image.png"/>
 
-In the project directory, you can run:
+## Running locally in development mode 💻
 
-### `npm start`
+To get started, just clone the repository and run `npm install && npm run dev`:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+    git clone https://github.com/wolz-CODElife/portfolio.git
+    npm install
+    npm run dev
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Building and deploying in production 🚀
 
-### `npm test`
+If you wanted to run this site in production, you should install modules then
+build the site with `npm run build` and run it with `npm start`:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    npm install
+    npm run build
+    npm start
 
-### `npm run build`
+You should run `npm run build` again any time you make changes to the site.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Note: If you are already running a webserver on port 80 (e.g. Macs usually have
+the Apache webserver running on port 80) you can still start the example in
+production mode by passing a different port as an Environment Variable when
+starting (e.g. `PORT=3000 npm start`).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Alternate hosting options 🌍
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+You can host your Next.js site with any hosting provider. Although it works
+great on Now, it also works great with other providers like Heroku, Amazon Web
+Service, Google Cloud Platform, Microsoft Azure, DigitalOcean and others.
