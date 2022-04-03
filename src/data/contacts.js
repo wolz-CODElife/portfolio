@@ -21,7 +21,7 @@ export const contacts = [
     },
     {
         type: "whatsapp",
-        link: "https://wa.me/2347059575819?text=Hello%20CODElife",
+        link: "https://wa.me/2349121341600?text=Hello%20CODElife",
         thumbnail: "https://api.iconify.design/ri:whatsapp-fill.svg"
     }
 ]

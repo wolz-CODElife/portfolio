@@ -2,6 +2,7 @@ import React from 'react'
 import './css/Home.css'
 import { Link, Outlet, useLocation } from 'react-router-dom'
 import { IconArrowRight, IconLocation } from '../icons/icons'
+import { PopupWidget } from "react-calendly";
 
 const Home = () => {
     const page = useLocation()
@@ -33,6 +34,13 @@ const Home = () => {
 
     return (
         <div>
+            <PopupWidget 
+                url="https://calendly.com/wolz-codelife"
+                rootElement={document.getElementById("root")}
+                text="Schedule a meeting!"
+                textColor="#ffffff"
+                color="#00a2ff"
+            />
             <div className="logo">
                 <img src="https://i.postimg.cc/HWyhdDm9/image.png" alt="icon" />
             </div>

@@ -16,12 +16,6 @@ const Works = () => {
             <div className="gallery">
                 {works.map(work => (
                     <div className="card" style={{ backgroundImage: `url(${work.thumbnail})` }} key={work.title}>
-                        {work.video &&
-                        // <img src={work.video} alt={work.title} id="background-video" />
-                            <video autoPlay={true} controls={false} loop="2" muted poster={work.thumbnail} id="background-video">
-                                <source src={work.video} type="video/mp4" />
-                            </video>
-                        }
                         <div className="info">
                             <div className="header_links">
                                 <a href={work.link} target="_blank" rel="noopener noreferrer"><IconExternalLink /></a>

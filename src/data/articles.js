@@ -1,5 +1,13 @@
 export const articles = [
     {
+        title: "Why you should use a proxy server with Create React App - LogRocket Blog",
+        desc: "Learn why and how to implement a proxy server with Create React App to secure and organize your next React app.",
+        thumbnail: "https://blog.logrocket.com/wp-content/uploads/2022/03/Why-use-proxy-server-Create-react-app.png",
+        link: "https://blog.logrocket.com/why-you-should-use-proxy-server-create-react-app/",
+        tools: ["ReactJs"],
+        tags: ["Contracts"]
+    },
+    {
         title: "Migrating to React Router v6: A complete guide - LogRocket Blog",
         desc: "Migrate your React Router applications from v5 to v6 with this in-depth guide, including a review of additions and improvements from v5.",
         thumbnail: "https://blog.logrocket.com/wp-content/uploads/2021/12/Migrating-react-router-v6-complete-guide.png",

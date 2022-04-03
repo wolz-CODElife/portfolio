@@ -1,21 +1,38 @@
-import koza from '../assets/koza.mp4'
-import casionx from '../assets/casinox.mp4'
-import fintech from '../assets/fintech.mp4'
-import mimeal from '../assets/mimeal.mp4'
-import netflix from '../assets/netflix.mp4'
-import spotify from '../assets/spotify.mp4'
-import space from '../assets/space.mp4'
-import dashboard from '../assets/dashboard.mp4'
-
 
 export const works = [
+    {
+        title: "DefiDash",
+        desc: "DefiDash - My first decentralized application(Daaps)",
+        thumbnail: "https://i.postimg.cc/zDcR0GtN/image.png",
+        link: "https://defidashx.web.app",
+        source: "https://github.com/wolz-CODElife/defidash",
+        tools: ["ReactJs", "Moralis", "Firebase"],
+        tags: ["Personal"]
+    },
+    {
+        title: "Starwars Casts",
+        desc: "A List of Star Wars Casts built by wolz-CODElife",
+        thumbnail: "https://i.postimg.cc/NFSb1hPw/image.png",
+        link: "https://starwars-casts.web.app",
+        source: "https://github.com/wolz-CODElife/starwars-casts",
+        tools: ["ReactJs", "SWAPI", "Firebase"],
+        tags: ["Personal"]
+    },
+    {
+        title: "unityui8",
+        desc: "An implementation of a UI design",
+        thumbnail: "https://i.postimg.cc/YSXpM8sW/image.png",
+        link: "https://unityui8.web.app/",
+        source: "https://github.com/wolz-CODElife/unityui8",
+        tools: ["ReactJs", "Firebase"],
+        tags: ["Personal"]
+    },
     {
         title: "KOŽA KLOSET® Official Website",
         desc: "Discover the complete KOŽA KLOSET® collection on the official website. Shop new arrivals for men and women.",
         thumbnail: "https://i.postimg.cc/mgYVGT8q/image.png",
         link: "https://kozakloset.com",
         source: "",
-        video: koza,
         tools: ["ReactJs", "Firestore", "Google Auth"],
         tags: ["Contracts"]
     },
@@ -25,7 +42,6 @@ export const works = [
         thumbnail: "https://i.postimg.cc/PJBnp1p2/image.png",
         link: "https://casinoxs.web.app/",
         source: "wolz-CODElife/CasinoX",
-        video: casionx,
         tools: ["React", "Firebase"],
         tags: ["Personal"]
     },
@@ -35,7 +51,6 @@ export const works = [
         thumbnail: "https://i.postimg.cc/vHfJM2rG/image.png",
         link: "https://fintech-app-template.web.app/",
         source: "wolz-CODElife/Fintech-app-template",
-        video: fintech,
         tools: ["React", "Firebase"],
         tags: ["Personal"]
     },
@@ -45,7 +60,6 @@ export const works = [
         thumbnail: "https://i.postimg.cc/4xK1yQ4j/image.png",
         link: "https://mimeal.herokuapp.com/",
         source: "wolz-CODElife/mimeal",
-        video: mimeal,
         tools: ["HTML & CSS", "PHP"],
         tags: ["Hackathon"]
     },
@@ -64,7 +78,6 @@ export const works = [
         thumbnail: "https://i.postimg.cc/MHTbZhqh/image.png",
         link: "https://netflix-clone-778b0.web.app/",
         source: "wolz-CODElife/Netflix-clone",
-        video: netflix,
         tools: ["React", "Firebase", "TMDB API"],
         tags: ["Personal"]
     },
@@ -83,7 +96,6 @@ export const works = [
         thumbnail: "https://i.postimg.cc/x8C4wYvd/image.png",
         link: "https://spotify-clone-c6e51.web.app/",
         source: "wolz-CODElife/spotify-cloned",
-        video: spotify,
         tools: ["React", "Firebase", "Spotify SDK"],
         tags: ["Personal"]
     },
@@ -120,7 +132,6 @@ export const works = [
         thumbnail: "https://i.postimg.cc/wjBp9c0M/image.png",
         link: "https://dashboard-devto-challenge.web.app/",
         source: "wolz-CODElife/dashboard-devto-challenge",
-        video: dashboard,
         tools: ["React", "Firebase"],
         tags: ["Challenge"]
     },
@@ -130,7 +141,6 @@ export const works = [
         thumbnail: "https://i.postimg.cc/tCBSvz4M/image.png",
         link: "https://spacebart.netlify.app/",
         source: "wolz-CODElife/SpaceGuide",
-        video: space,
         tools: ["HTML & CSS", "JavaScript"],
         tags: ["Hackathon"]
     }
