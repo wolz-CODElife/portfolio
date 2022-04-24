@@ -10,6 +10,23 @@ export const works = [
         tags: ["Personal"]
     },
     {
+        title: "OneID SDK for JavaScript",
+        desc: "A library that gives you access to OneID SSO services from your JavaScript app.",
+        thumbnail: "https://opengraph.githubassets.com/c0336e6baf33ddd3c8499b8e862d79057458ccb923cee2ccde4395207d42583c/wolz-CODElife/oneid-js-sdk",
+        link: "https://www.npmjs.com/package/oneid-sdk",
+        source: "https://github.com/wolz-CODElife/oneid-js-sdk",
+        tools: ["JavaScript", "OneID API"],
+        tags: ["Project"]
+    },
+    {
+        title: "PG Writing Hub",
+        desc: "A critical thinking and writing forum for postgraduate students.",
+        thumbnail: "https://i.postimg.cc/yYrnxQry/image.png",
+        link: "https://pgwritinghub.net/",
+        tools: ["ReactJs", "Firebase"],
+        tags: ["Contract"]
+    },
+    {
         title: "Starwars Casts",
         desc: "A List of Star Wars Casts built by wolz-CODElife",
         thumbnail: "https://i.postimg.cc/NFSb1hPw/image.png",

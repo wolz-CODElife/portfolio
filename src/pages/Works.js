@@ -4,7 +4,8 @@ import { IconExternalLink, IconGithub, IconProjects } from '../icons/icons'
 import './css/Works.css'
 
 const Works = () => {
-    const Resume = "https://firebasestorage.googleapis.com/v0/b/wolz-portfolio.appspot.com/o/Adewole%20Joel%20Resume.pdf?alt=media&token=fbe6435b-550d-4f55-811e-4a69728a7b62"
+    const Resume = "https://docs.google.com/document/d/1-dfXyR29heMUpy799-6tu2a5vLLyJunxQGDsPOcEJJE/edit?usp=sharing"
+    // const Resume = "https://firebasestorage.googleapis.com/v0/b/wolz-portfolio.appspot.com/o/Adewole%20Joel%20Resume.pdf?alt=media&token=fbe6435b-550d-4f55-811e-4a69728a7b62"
 
     return (
         <div className='Works'>
