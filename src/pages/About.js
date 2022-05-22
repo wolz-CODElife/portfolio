@@ -12,11 +12,13 @@ const About = () => {
             <br />
             <code>
                 <q>
-                    I am <a href="mailto:joeladewole3@gmail.com" title="Joel Adewole" className='highlighted'>Joel Adewole</a> a developer with {`${new Date().getFullYear() - 2014}`}+ years of experience in web development and about {`${new Date().getFullYear() - 2019}`}+ years working experience. I have explored full-stack web technologies like <a href="http://github.com/wolz-CODElife" target="_blank" rel="noopener noreferrer" title="GitHub" className='highlighted'>JavaScript(React), Python(Flask), HTML, CSS, Git, Firebase</a>. Recently, I have been working remotely as a contractor for various <a href="https://www.linkedin.com/in/wolz-codelife/" target="_blank" rel="noopener noreferrer" title="LinkedIn" className='highlighted'>companies</a> worldwide. And I specialize in building single-page applications (SPAs) and enjoy transforming beautiful designs into smoothly-working products used by many people. And also, writing technical content for blog platforms.
+                    I am <a href="mailto:joeladewole3@gmail.com" title="Joel Adewole" className='highlighted'>Joel Adewole</a>a proficient web developer with around {`${new Date().getFullYear() - 2014}`} years of experience and about {`${new Date().getFullYear() - 2019}`}+ years working experience with full-stack web technologies such as <a href="http://github.com/wolz-CODElife" target="_blank" rel="noopener noreferrer" title="GitHub" className='highlighted'>JavaScript(React), Python(Flask), HTML and CSS</a>. I've worked as a contractor for a various <a href="https://www.linkedin.com/in/wolz-codelife/" target="_blank" rel="noopener noreferrer" title="LinkedIn" className='highlighted'>companies</a> across the world.
+                    I usually focus on developing single-page applications (SPAs), but I also like transforming UI/UX designs into smoothly functional solutions.
+                    I've written and edited various technical articles, including white papers, tutorials, user manuals, and technical documentation, in my previous jobs and present job as a contractor.
+                    I'm currently migrating towards the blockchain sector, where I'm learning more about cryptocurrency, web3, and decentralized technologies.
                     <br></br>
-                    I am currently learning Web3 and Typescript.
-                    <br></br>
-                    And I am open to full-time or freelance jobs as a front-end web developer, full-stack web developer or technical writer.
+                    For our mutual benefit, I'd love to contribute my experience to your company. I believe I can grow and develop while contributing my expertise and skills to your team's success. 
+                    I'd appreciate the opportunity of a chat at your earliest convenience so we can talk about how I can contribute my experience to your company.
                 </q>
             </code>
         </div>
