@@ -1,5 +1,13 @@
 export const articles = [
     {
+        title: "ERC-4626 Tokenized Vault Standard | ethereum.org",
+        desc: "A standard for yield bearing vaults.",
+        thumbnail: "https://ethereum.org/static/bf78b49d7e23b88a7eea934225b0cf96/1548e/enterprise-eth.png",
+        link: "https://ethereum.org/en/developers/docs/standards/tokens/erc-4626/",
+        tools: ["Ethereum", "MD"],
+        tags: ["Open Source"]
+    },
+    {
         title: "Building a DeFi dashboard: A developer’s guide - LogRocket Blog",
         desc: "DeFi dashboards are helpful for viewing many disparate blockchain investments in a single place. Learn to build your own in this tutorial.",
         thumbnail: "https://blog.logrocket.com/wp-content/uploads/2022/04/Build-defi-dashboard-developers-guide.png",
