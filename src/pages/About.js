@@ -12,13 +12,13 @@ const About = () => {
             <br />
             <code>
                 <q>
-                    I am <a href="mailto:joeladewole3@gmail.com" title="Joel Adewole" className='highlighted'>Joel Adewole</a> a proficient web developer with about {`${new Date().getFullYear() - 2014}+`} years of experience and {`${new Date().getFullYear() - 2019}+`} years working experience with full-stack web technologies such as <a href="http://github.com/wolz-CODElife" target="_blank" rel="noopener noreferrer" title="GitHub" className='highlighted'>JavaScript(React), Python(Flask), HTML and CSS</a>. I've worked as a contractor for various <a href="https://www.linkedin.com/in/wolz-codelife/" target="_blank" rel="noopener noreferrer" title="LinkedIn" className='highlighted'>companies</a> across the world.
-                    I usually focus on developing single-page applications (SPAs), and I also like transforming UI/UX designs into smoothly functional solutions.
-                    I've written and edited various technical articles, including white papers, tutorials, user manuals, and developer documentation, in my previous jobs and present job as a contractor.
-                    I'm currently migrating towards the blockchain sector, where I'm learning more about cryptocurrency, web3, and decentralized technologies.
+                    I am <a href="mailto:joeladewole3@gmail.com" title="Joel Adewole" className='highlighted'>Joel Adewole</a> a proficient technical writer and developer advocate with about {`${new Date().getFullYear() - 2014}+`} years of experience and {`${new Date().getFullYear() - 2019}+`} years working experience with full-stack web technologies such as <a href="http://github.com/wolz-CODElife" target="_blank" rel="noopener noreferrer" title="GitHub" className='highlighted'>JavaScript(React), Python(Flask), HTML and CSS</a>. I've worked as a contractor for various <a href="https://www.linkedin.com/in/wolz-codelife/" target="_blank" rel="noopener noreferrer" title="LinkedIn" className='highlighted'>companies</a> across the world.
+                    I usually focus on developing single-page applications (SPAs), and I also enjoy transforming UI/UX designs into smoothly functional applications.
+                    I've written and edited various technical articles, including white papers, tutorials, user manuals, and developer documentation.
+                    Besides offering the finest customer experience, I want to create the best developer experience. 
+                    In my capacity as a contributor to several developer communities, I gave back to GDSC (Google Developer Student Club), UNILAG, where I was a major part of the core team organizing hackathons and training classes, OSCA (Open Source Community Africa), where I gave public talks on technical writing and open source contributions, Ethereum, where I improved and created blog contents for the official documentation, Polygon, where I created developer documentation, and on social media platforms like Twitter, Linkedin and Discord which enables me to network with other developers and learn how to create resources for them.
                     <br></br>
-                    For our mutual benefit, I'd love to contribute my experience to your company. I believe I can grow and develop while contributing my expertise and skills to your team's success. 
-                    I'd appreciate the opportunity of a chat at your earliest convenience so we can talk about how I can contribute my experience to your company.
+                    I'd appreciate the opportunity of a chat at your earliest convenience so we can discuss how we can work together.
                 </q>
             </code>
         </div>

@@ -11,7 +11,7 @@ const Works = () => {
         <div className='Works'>
             <h1 className='title'>Works <IconProjects /> </h1>
             <div className="pdf">
-                <iframe src={Resume} title='Resume' frameborder="0"></iframe>
+                {/* <iframe src={Resume} title='Resume' frameborder="0"></iframe> */}
                 <a href={Resume} download target="_blank" rel='noopener noreferrer'>Download Resume</a>
             </div>
             <div className="gallery">
