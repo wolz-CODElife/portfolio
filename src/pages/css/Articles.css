@@ -38,14 +38,14 @@
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
-    height: 0px;
-    overflow: auto;
+    /* height: 0px; */
+    /* overflow: auto; */
     border-radius: 10px;
     background-image: linear-gradient(transparent 40%, #0e0d0dce 50%);
     transition: 0.4s ease;
     position: relative;
-}
-.Articles .gallery .card:hover .info {
+/* }
+.Articles .gallery .card:hover .info { */
     padding: 20px 10px;
     height: 90%;
     overflow: unset;
