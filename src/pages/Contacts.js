@@ -15,6 +15,7 @@ const Contacts = () => {
                     </a>
                 ))}
             </div>
+            <br /><br />
         </div>
     )
 }

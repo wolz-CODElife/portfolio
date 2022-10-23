@@ -1,6 +1,33 @@
 
 export const works = [
     {
+        title: "OneID React Hook",
+        desc: "A library that gives you access to OneID SSO services from your React app.",
+        thumbnail: "https://i.postimg.cc/xTDVKHHK/image.png",
+        link: "https://www.npmjs.com/package/react-oneid",
+        // source: "https://github.com/wolz-CODElife/oneid-js-sdk",
+        tools: ["TypeScript", "OneID API"],
+        tags: ["Project"]
+    },
+    {
+        title: "OneID SDK for JavaScript",
+        desc: "A library that gives you access to OneID SSO services from your JavaScript app.",
+        thumbnail: "https://i.postimg.cc/5t32rg5d/image.png",
+        link: "https://www.npmjs.com/package/oneid-sdk",
+        // source: "https://github.com/wolz-CODElife/oneid-js-sdk",
+        tools: ["JavaScript", "OneID API"],
+        tags: ["Project"]
+    },
+    {
+        title: "HandsOnDocs",
+        desc: "With us there’ll be no delay. You’ll have all hands on doc(s)",
+        thumbnail: "https://i.postimg.cc/d1zdQv3c/image.png",
+        link: "https://handsondocs.com",
+        // source: "https://github.com/wolz-CODElife/defidash",
+        tools: ["ReactJs", "Firebase"],
+        tags: ["Personal"]
+    },
+    {
         title: "DefiDash",
         desc: "DefiDash - My first decentralized application(Daaps)",
         thumbnail: "https://i.postimg.cc/zDcR0GtN/image.png",
@@ -8,15 +35,6 @@ export const works = [
         source: "https://github.com/wolz-CODElife/defidash",
         tools: ["ReactJs", "Moralis", "Firebase"],
         tags: ["Personal"]
-    },
-    {
-        title: "OneID SDK for JavaScript",
-        desc: "A library that gives you access to OneID SSO services from your JavaScript app.",
-        thumbnail: "https://opengraph.githubassets.com/c0336e6baf33ddd3c8499b8e862d79057458ccb923cee2ccde4395207d42583c/wolz-CODElife/oneid-js-sdk",
-        link: "https://www.npmjs.com/package/oneid-sdk",
-        source: "https://github.com/wolz-CODElife/oneid-js-sdk",
-        tools: ["JavaScript", "OneID API"],
-        tags: ["Project"]
     },
     {
         title: "PG Writing Hub",

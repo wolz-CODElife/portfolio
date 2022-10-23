@@ -1,19 +1,19 @@
 {
   "short_name": "wolz CODElife",
-  "name": "wolz CODElife",
+  "name": "wolz CODElife® Official Portfolio",
   "icons": [
     {
-      "src": "https://i.postimg.cc/Wb79NxpD/image.png",
+      "src": "https://i.postimg.cc/HWyhdDm9/image.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "https://i.postimg.cc/Wb79NxpD/image.png",
+      "src": "https://i.postimg.cc/HWyhdDm9/image.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "https://i.postimg.cc/Wb79NxpD/image.png",
+      "src": "https://i.postimg.cc/HWyhdDm9/image.png",
       "type": "image/png",
       "sizes": "512x512"
     }
