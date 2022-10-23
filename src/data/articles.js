@@ -1,11 +1,19 @@
 export const articles = [
     {
         title: "React 18 Upgrade Guide and New Features",
-        desc: "Since updates frequently include modifications that change features completely or even eliminate certain features and add others, some developers may find it difficult to transition ...",
+        desc: "Since updates frequently include modifications that change features completely or even eliminate certain features and add others...",
         thumbnail: "https://refine.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1662726351561%2FFB_C4G1cg.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=3840&q=75",
         link: "https://refine.hashnode.dev/react-18-upgrade-guide-and-new-features",
         tools: ["React", "MD"],
         tags: ["Featured on Hasdnode", "Contract"]
+    },
+    {
+        title: "Improving Developer Experience With Dev Portals - DEV Community 👩‍💻👨‍💻",
+        desc: "It is essential to take developers into consideration when designing products, just as user experience...",
+        thumbnail: "https://res.cloudinary.com/practicaldev/image/fetch/s--OBgdxrDi--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/fi3zrgxkcsdf68bb09r2.png",
+        link: "https://dev.to/wolzcodelife/improving-developer-experience-with-dev-portals-hhi",
+        tools: ["DevEx", "Dev Portal", "MD"],
+        tags: ["Contract"]
     },
     {
         title: "ERC-4626 Tokenized Vault Standard | ethereum.org",
@@ -16,7 +24,7 @@ export const articles = [
         tags: ["Open Source"]
     },
     {
-        title: "Introduction to Polygon PoS | Polygon Technology | Documentation",
+        title: "Introduction to Polygon PoS | Polygon Technology",
         desc: "Build your next blockchain app on Polygon.",
         thumbnail: "https://ethereum.org/static/bf78b49d7e23b88a7eea934225b0cf96/1548e/enterprise-eth.png",
         link: "https://ethereum.org/en/developers/docs/standards/tokens/erc-4626/",
@@ -24,12 +32,28 @@ export const articles = [
         tags: ["Open Source"]
     },
     {
+        title: "Neumorphism with CSS - A new design trend | Refine Blog",
+        desc: "Overview and examples for Neumorphic CSS implementations.",
+        thumbnail: "https://refine.dev/img/blog/2022-08-20-neumorphic-css/social.png",
+        link: "https://refine.dev/blog/neumorphic-css/",
+        tools: ["CSS", "Neumorphism", "MD"],
+        tags: ["Contracts", "Web"]
+    },
+    {
+        title: "A Quick Start Guide to React Suspense | Refine Blog",
+        desc: "How React Suspense works and common use cases",
+        thumbnail: "https://refine.dev/img/blog/2022-09-23-react-suspense/social.png",
+        link: "https://refine.dev/blog/react-suspense-guide/",
+        tools: ["JavaScript", "React", "MD"],
+        tags: ["Contracts", "Web"]
+    },
+    {
         title: "Using Tatum Key Management System(KMS) to sign transactions",
         desc: "Although there are many views on the various consensus techniques used in blockchain, companies have been working tirelessly to invent solutions...",
         thumbnail: "https://wolz-codelife.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1662338864502%2F8EmwDCPx8.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=3840&q=75",
         link: "https://wolz-codelife.hashnode.dev/using-tatum-kms-to-sign-transactions",
         tools: ["Tatum", "MD"],
-        tags: ["Contracts", "Blockchain", "NFT"]
+        tags: ["Contracts", "Blockchain"]
     },
     {
         title: "How to Mint NFTs Using Tatum NFT Express in JavaScript",
@@ -44,7 +68,7 @@ export const articles = [
         desc: "DeFi dashboards are helpful for viewing many disparate blockchain investments in a single place. Learn to build your own in this tutorial.",
         thumbnail: "https://blog.logrocket.com/wp-content/uploads/2022/04/Build-defi-dashboard-developers-guide.png",
         link: "https://blog.logrocket.com/building-defi-dashboard-developers-guide/",
-        tools: ["ReactJs", "Moralis", "MD"],
+        tools: ["React", "Moralis", "MD"],
         tags: ["Contracts"]
     },
     {
@@ -52,7 +76,7 @@ export const articles = [
         desc: "Solidity design patterns make your life as a web3 dev easier; learn about their benefits (and how to use them) in this complete guide.",
         thumbnail: "https://blog.logrocket.com/wp-content/uploads/2022/07/developers-guide-solidity-design-pattern.png",
         link: "https://blog.logrocket.com/developers-guide-solidity-design-patterns/",
-        tools: ["ReactJs", "Solidity", "MD"],
+        tools: ["React", "Solidity", "MD"],
         tags: ["Contracts"]
     },
     {
@@ -60,7 +84,7 @@ export const articles = [
         desc: "Component spacing is the most integral part of any UI design system. Learn the basics, and some handy tricks, in this complete guide.",
         thumbnail: "https://blog.logrocket.com/wp-content/uploads/2022/04/8-best-ways-define-component-spacing-design-system.png",
         link: "https://blog.logrocket.com/8-best-ways-define-component-spacing-design-system/",
-        tools: ["MD"],
+        tools: ["UIUX", "MD"],
         tags: ["Contracts"]
     },
     {
@@ -68,7 +92,7 @@ export const articles = [
         desc: "Learn why and how to implement a proxy server with Create React App to secure and organize your next React app.",
         thumbnail: "https://blog.logrocket.com/wp-content/uploads/2022/03/Why-use-proxy-server-Create-react-app.png",
         link: "https://blog.logrocket.com/why-you-should-use-proxy-server-create-react-app/",
-        tools: ["ReactJs", "NodeJs", "MD"],
+        tools: ["React", "Node", "MD"],
         tags: ["Contracts"]
     },
     {
@@ -76,7 +100,7 @@ export const articles = [
         desc: "Migrate your React Router applications from v5 to v6 with this in-depth guide, including a review of additions and improvements from v5.",
         thumbnail: "https://blog.logrocket.com/wp-content/uploads/2021/12/Migrating-react-router-v6-complete-guide.png",
         link: "https://blog.logrocket.com/migrating-react-router-v6-complete-guide/",
-        tools: ["ReactJs", "MD"],
+        tools: ["React", "MD"],
         tags: ["Contracts"]
     },
     {
@@ -84,7 +108,7 @@ export const articles = [
         desc: "Technical Writing in connection with the Write with Fauna Program.  Using React, Spotify API, and Fauna...",
         thumbnail: "https://res.cloudinary.com/practicaldev/image/fetch/s--ezu-3L3L--/c_imagga_scale,f_auto,fl_progressive,h_500,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/882utor1sugjqqu8wr6x.png",
         link: "https://dev.to/wolzcodelife/how-to-build-a-music-playlist-with-react-spotify-and-fauna-40k6",
-        tools: ["ReactJs", "FaunaDB", "Spotify API", "MD"],
+        tools: ["React", "FaunaDB", "Spotify API", "MD"],
         tags: ["Contracts"]
     },
     {
@@ -92,7 +116,7 @@ export const articles = [
         desc: "Create a React Hook for autoplaying videos with Intersection Observer to create a TikTok clone in this tutorial and example build.",
         thumbnail: "https://blog.logrocket.com/wp-content/uploads/2021/10/using-intersection-observer-tiktok-autoplay-hook-web-nocdn.png",
         link: "https://blog.logrocket.com/build-custom-tiktok-autoplay-react-hook-intersection-observer/",
-        tools: ["ReactJs", "IntersectionObserver", "MD"],
+        tools: ["React", "IntersectionObserver", "MD"],
         tags: ["Contracts"]
     },
     {
